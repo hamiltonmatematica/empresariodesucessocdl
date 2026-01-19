@@ -97,6 +97,14 @@ export const Registration: React.FC = () => {
                 </li>
                 <li className="flex items-start gap-2 text-white text-sm font-medium">
                   <CheckCircle2 size={16} className="text-brand-neon mt-0.5 flex-shrink-0" />
+                  <span>✨ Happy Hour incluso</span>
+                </li>
+                <li className="flex items-start gap-2 text-white text-sm font-medium">
+                  <CheckCircle2 size={16} className="text-brand-neon mt-0.5 flex-shrink-0" />
+                  <span>✨ Mentorias online pós-evento</span>
+                </li>
+                <li className="flex items-start gap-2 text-white text-sm font-medium">
+                  <CheckCircle2 size={16} className="text-brand-neon mt-0.5 flex-shrink-0" />
                   <span>🎁 BÔNUS: Livro autografado</span>
                 </li>
               </ul>

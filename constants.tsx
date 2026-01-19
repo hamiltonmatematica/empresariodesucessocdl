@@ -89,6 +89,11 @@ export const AGENDA_DAY_2: AgendaItem[] = [
   {
     time: "17h30",
     title: "Encerramento",
+  },
+  {
+    time: "18h00 – 19h00",
+    title: "Happy Hour",
+    description: "Momento de descontração e networking com bebidas e petiscos inclusos."
   }
 ];
 
