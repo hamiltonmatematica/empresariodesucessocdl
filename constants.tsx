@@ -5,18 +5,32 @@ export const SPEAKERS: Speaker[] = [
   {
     name: "Fred Rocha",
     role: "Vendas e Inovação",
-    description: "Especialista em varejo e consumo, Fred traz uma visão disruptiva sobre o novo jeito de vender e como aplicar inteligência artificial no dia a dia para ampliar resultados.",
-    image: "https://picsum.photos/id/338/400/500" // Placeholder
+    description: "Pesquisador, Consultor e Palestrante – Especialista em Varejo e Consumo. Reconhecido quatro vezes como Profissional de Marketing do Brasil, Fred Rocha é hoje o especialista em varejo mais contratado do país. Com mais de 30 anos de experiência e 19 negócios fundados em diferentes segmentos, ele já percorreu 33 países estudando consumo, inovação e comportamento de compra no mundo real. Pioneiro do e-commerce no Brasil, Fred é autor dos livros 'ManUAU do Novo Varejista' e 'O Novo Jeito de Vender' (Editora Gente), este último best-seller em negócios no Brasil. É também apresentador do programa Empreender, transmitido pela TV Globo em Minas Gerais, São Paulo, Rio de Janeiro, Espírito Santo, Mato Grosso e Mato Grosso do Sul — e disponível no Globoplay. Considerado por muitos como o mais inovador conferencista brasileiro, Fred se destaca por unir conhecimento técnico, visão prática e uma linguagem acessível, capaz de provocar reflexões profundas e transformações reais em negócios de todos os portes.",
+    image: "/fred.jpg"
   },
   {
     name: "Diego Suzano",
     role: "Estratégia e Gestão",
-    description: "Líder do T3 Hub, Diego foca em processos, finanças e gestão de tempo, preparando empresários para o cenário político e econômico de 2026.",
-    image: "https://picsum.photos/id/237/400/500" // Placeholder
+    description: "Administrador pela UFMG, Mestre em Finanças e Estratégias Empresariais pela UNIMONTES, Especialista em PPPs e Concessões pela Fundação Escola de Sociologia e Política de São Paulo. Possui Especialização em Infraestrutura pelo HMT (Tesouro Britânico) e em PPPs pela LSE (Escola de Economia de Londres). CEO da Holding Terranova, empresa que atua Incorporação de Cemitérios, Crematorios Humanos e PET, além de ser idealizador da primeira e única franquia de cemitérios do mundo. No braço empresarial, é CEO da T3 Consultoria e T3 HUB, tendo mais de 07 anos de atuação pelo SEBRAE. Palestrante e treinador de alto impacto, suas palestras e treinamentos alcançaram palcos como o G4 Educação, FEDERAMINAS, Inovare, UFMG, dentre outros.",
+    image: "/Diego.jpg"
   }
 ];
 
-export const AGENDA: AgendaItem[] = [
+export const AGENDA_DAY_1: AgendaItem[] = [
+  {
+    time: "19h00",
+    title: "Palestra Magna: O Novo Jeito de Vender",
+    speaker: "Diego e Fred",
+    description: "Uma visão disruptiva sobre o varejo, inovação e o futuro das vendas."
+  },
+  {
+    time: "20h30",
+    title: "Sessão de Autógrafos e Networking",
+    description: "Momento exclusivo para fotos, autógrafos e conexão com o palestrante."
+  }
+];
+
+export const AGENDA_DAY_2: AgendaItem[] = [
   {
     time: "08h00 – 09h00",
     title: "Café da Manhã e Networking",
@@ -79,11 +93,25 @@ export const AGENDA: AgendaItem[] = [
 ];
 
 export const CITIES: City[] = [
-  { name: "Taiobeiras" },
-  { name: "Salinas" },
-  { name: "Januária" },
-  { name: "Pirapora" },
-  { name: "Bocaiúva" }
+  { name: "Taiobeiras", date: "03 de Fevereiro" },
+  { name: "Bocaiuva", date: "09 de Fevereiro" },
+  { name: "Brasília de Minas", date: "09 de Fevereiro" },
+  { name: "Montes Claros", date: "11 de Fevereiro" },
+  { name: "Rio Pardo de Minas", date: "23 de Fevereiro" },
+  { name: "Guanambi", date: "25 de Fevereiro" },
+  { name: "Coração de Jesus", date: "02 de Março" },
+  { name: "Corinto", date: "05 de Março" }
+];
+
+export const CITIES_FULL: City[] = [
+  { name: "Taiobeiras", date: "03 e 04 de Fevereiro" },
+  { name: "Bocaiuva", date: "09 e 10 de Fevereiro" },
+  { name: "Brasília de Minas", date: "09 e 10 de Fevereiro" },
+  { name: "Montes Claros", date: "11 e 12 de Fevereiro" },
+  { name: "Rio Pardo de Minas", date: "23 e 24 de Fevereiro" },
+  { name: "Guanambi", date: "25 e 26 de Fevereiro" },
+  { name: "Coração de Jesus", date: "02 e 03 de Março" },
+  { name: "Corinto", date: "05 e 06 de Março" }
 ];
 
 export const BENEFITS: Benefit[] = [

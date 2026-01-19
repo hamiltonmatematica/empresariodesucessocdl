@@ -23,14 +23,13 @@ export const Header: React.FC = () => {
   };
 
   return (
-    <header 
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-slate-950/95 backdrop-blur-md shadow-xl py-2' : 'bg-transparent py-4'
-      }`}
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-brand-dark/80 backdrop-blur-md shadow-[0_4px_30px_rgba(0,0,0,0.1)] border-b border-brand-neon/10 py-2' : 'bg-transparent py-4'
+        }`}
     >
       <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
-        <div className="font-serif font-bold text-xl md:text-2xl tracking-tighter leading-none text-amber-500 cursor-pointer" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
-          EMPRESÁRIOS<br/>
+        <div className="font-serif font-bold text-xl md:text-2xl tracking-tighter leading-none text-brand-neon drop-shadow-[0_0_5px_rgba(0,209,255,0.5)] cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+          EMPRESÁRIOS<br />
           <span className="text-white text-sm md:text-base tracking-widest font-sans font-light">DE SUCESSO</span>
         </div>
 
@@ -45,7 +44,7 @@ export const Header: React.FC = () => {
         </nav>
 
         {/* Mobile Toggle */}
-        <button 
+        <button
           className="md:hidden text-white"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >

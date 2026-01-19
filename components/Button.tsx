@@ -5,22 +5,22 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   fullWidth?: boolean;
 }
 
-export const Button: React.FC<ButtonProps> = ({ 
-  children, 
-  variant = 'primary', 
-  fullWidth = false, 
-  className = '', 
-  ...props 
+export const Button: React.FC<ButtonProps> = ({
+  children,
+  variant = 'primary',
+  fullWidth = false,
+  className = '',
+  ...props
 }) => {
   const baseStyles = "px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center gap-2";
-  
+
   const variants = {
-    primary: "bg-gradient-to-r from-amber-400 to-amber-600 text-slate-900 hover:from-amber-300 hover:to-amber-500",
-    outline: "border-2 border-amber-500 text-amber-500 hover:bg-amber-500 hover:text-slate-900"
+    primary: "bg-gradient-to-r from-brand-deep to-brand-neon text-white hover:from-blue-600 hover:to-cyan-400 shadow-neon border border-brand-neon/20",
+    outline: "border-2 border-brand-neon text-brand-neon hover:bg-brand-neon hover:text-brand-dark shadow-[0_0_10px_rgba(0,209,255,0.2)]"
   };
 
   return (
-    <button 
+    <button
       className={`${baseStyles} ${variants[variant]} ${fullWidth ? 'w-full' : ''} ${className}`}
       {...props}
     >
