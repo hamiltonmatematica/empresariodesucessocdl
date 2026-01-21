@@ -6,7 +6,7 @@ export const SPEAKERS: Speaker[] = [
     name: "Fred Rocha",
     role: "Vendas e Inovação",
     description: "Pesquisador, Consultor e Palestrante – Especialista em Varejo e Consumo. Reconhecido quatro vezes como Profissional de Marketing do Brasil, Fred Rocha é hoje o especialista em varejo mais contratado do país. Com mais de 30 anos de experiência e 19 negócios fundados em diferentes segmentos, ele já percorreu 33 países estudando consumo, inovação e comportamento de compra no mundo real. Pioneiro do e-commerce no Brasil, Fred é autor dos livros 'ManUAU do Novo Varejista' e 'O Novo Jeito de Vender' (Editora Gente), este último best-seller em negócios no Brasil. É também apresentador do programa Empreender, transmitido pela TV Globo em Minas Gerais, São Paulo, Rio de Janeiro, Espírito Santo, Mato Grosso e Mato Grosso do Sul — e disponível no Globoplay. Considerado por muitos como o mais inovador conferencista brasileiro, Fred se destaca por unir conhecimento técnico, visão prática e uma linguagem acessível, capaz de provocar reflexões profundas e transformações reais em negócios de todos os portes.",
-    image: "/fred.jpeg"
+    image: "/fred.png"
   },
   {
     name: "Diego Suzano",
