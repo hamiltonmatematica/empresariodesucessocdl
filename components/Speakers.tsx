@@ -25,7 +25,7 @@ export const Speakers: React.FC = () => {
                     alt={speaker.name}
                     className="w-full h-full object-cover transition-all duration-500"
                     style={{
-                      transform: speaker.name === 'Fred Rocha' ? 'scale(3.2) translateX(-15%) translateY(30%)' : 'none'
+                      transform: speaker.name === 'Fred Rocha' ? 'scale(3.8) translateX(-22%) translateY(15%)' : 'none'
                     }}
                   />
                 </div>
