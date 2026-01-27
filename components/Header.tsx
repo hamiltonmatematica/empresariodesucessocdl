@@ -33,6 +33,11 @@ export const Header: React.FC = () => {
           <span className="text-white text-sm md:text-base tracking-widest font-sans font-light">DE SUCESSO</span>
         </div>
 
+        {/* Center Logo - Visible on Scroll */}
+        <div className={`absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 ${isScrolled ? 'opacity-100 translate-y-[-50%]' : 'opacity-0 translate-y-[-20%] pointer-events-none'}`}>
+          <img src="/sicoob.png" alt="Sicoob" className="h-12 w-auto" />
+        </div>
+
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8">
           <button onClick={() => scrollToSection('sobre')} className="text-gray-300 hover:text-white transition-colors">Sobre</button>
