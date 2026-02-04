@@ -59,7 +59,7 @@ export const Registration: React.FC = () => {
               </ul>
 
               <div className="mb-6">
-                <p className="text-3xl font-bold text-white mb-2">R$ 99,00</p>
+                <p className="text-3xl font-bold text-white mb-2">R$ 69,90</p>
                 <p className="text-brand-neon font-bold text-sm">
                   ASSOCIADOS CREDINOR TEM DESCONTO! <br /> PROCURE SEU GERENTE
                 </p>
@@ -122,7 +122,7 @@ export const Registration: React.FC = () => {
               </ul>
 
               <div className="mb-6">
-                <p className="text-3xl font-bold text-white mb-2">R$ 997,00</p>
+                <p className="text-3xl font-bold text-white mb-2">R$ 849,90</p>
                 <p className="text-brand-neon font-bold text-sm">
                   ASSOCIADOS CREDINOR TEM DESCONTO! <br /> PROCURE SEU GERENTE
                 </p>
