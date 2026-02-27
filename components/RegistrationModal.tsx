@@ -61,7 +61,7 @@ export const RegistrationModal: React.FC<RegistrationModalProps> = ({ isOpen, on
             // Redirecionar para o link de pagamento
             const paymentLinks = {
                 'day1': 'https://www.asaas.com/c/ehjibcey4qvjn8md',
-                'day1-2': 'https://www.asaas.com/c/vh6e2yudr7bncrkf'
+                'day1-2': 'https://www.asaas.com/c/ck2vzjuda3e4lqfi'
             };
 
             window.location.href = paymentLinks[ticketType];
